@@ -1,0 +1,14 @@
+.input-group {
+    width: 500px;
+}
+
+#blankspace {
+    height: 20px;
+}
+
+.list-group-item {
+    width: 250px;
+    color: red;
+    border-width: 2px;
+    background: black;
+} 

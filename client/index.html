@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Planet Locations</title>
+        <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        
+        <script src="script.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p></p>
+        <p></p>
+        <p></p>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">Name</span>
+            <input type="text" class="form-control" aria-describedby="sizing-addon2" id="name">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">Phone</span>
+            <input type="text" class="form-control" aria-describedby="sizing-addon2" id="phone">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">Address (1)</span>
+            <input type="text" class="form-control" aria-describedby="sizing-addon2" id="address1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">Address (2)</span>
+            <input type="text" class="form-control" aria-describedby="sizing-addon2" id="address2">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">City</span>
+            <input type="text" class="form-control" aria-describedby="sizing-addon2" id="city">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">State</span>
+            <input type="text" maxlength="2" class="form-control" aria-describedby="sizing-addon2" id="state">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">Zip</span>
+            <input type="text" maxlength="5" class="form-control" aria-describedby="sizing-addon2" id="zip">
+        </div>
+        <input type="checkbox" id="delivers"> Delivers</li>
+        <p></p>
+        <button type="button" id="addLocationButton">Add Location</button>
+        <div id="blankspace"></div>
+
+        <h1>Pizza Planet Locations</h1>
+        <div id="pizzaPlanetLocations"></div>
+    </body> 
+</html>
